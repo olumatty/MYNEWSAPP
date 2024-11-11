@@ -4,7 +4,6 @@ import Image from "next/image";
 
 const page = () => {
   const [news, setNews] = useState([]);
-  const [news2, setNews2] = useState([]);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -75,25 +74,6 @@ const page = () => {
                     </button>
                   </div>
                 </div>
-              </div>
-            ))}
-        </div>
-      </div>
-
-      <div className="px-3 mt-4">
-        <h1 className="text-2xl font-bold mb-4">Top Finance News</h1>
-        {loading && <p>Loading...</p>}
-        {error && <p>Failed to load news. Please try again later.</p>}
-        <div>
-          {!loading &&
-            !error &&
-            news2.map((article, index) => (
-              <div key={index}>
-                <h3>{article.title}</h3>
-                <p>{article.description}</p>
-                <a href={article.url} target="_blank" rel="noopener noreferrer">
-                  Read more
-                </a>
               </div>
             ))}
         </div>

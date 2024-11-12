@@ -5,7 +5,6 @@ import Link from "next/link";
 import { countries } from "../News";
 
 
-
 const Ukraine = ({ countryCode = 'ua' }) => {
   const [news, setNews] = useState([]);
   const [error, setError] = useState(false);

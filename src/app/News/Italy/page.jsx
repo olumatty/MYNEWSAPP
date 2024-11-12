@@ -14,7 +14,7 @@ const Italy = () => {
   const [selectedArticle, setSelectedArticle] = useState(null); 
   const [activeButton, setActiveButton] = useState(null)
 
-  const apiKey = '507ad1459bae12be2f90905f3c723ea3';
+  const apiKey = "14be1c978a7ee763c26424513c5c3ae8";
 
   useEffect(() => {
     const fetchNews = async () => {

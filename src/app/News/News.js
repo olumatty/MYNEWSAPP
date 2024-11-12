@@ -37,7 +37,7 @@ export const countries =[
 
     {
         id:7,
-        country:"HongKong",
+        country:"H'Kong",
         link:"/News/HongKong"
     },
 
@@ -61,7 +61,7 @@ export const countries =[
 
     {
         id:11,
-        country:"NewZealand",
+        country:"N'Zealand",
         link:"/News/NewZealand"
     },
 

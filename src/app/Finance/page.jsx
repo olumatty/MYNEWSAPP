@@ -12,12 +12,13 @@ export default function Home() {
     const fetchNews = async () => {
       try {
         setLoading(true)
-        const response = await fetch("/api/FinanceNews"); 
+        const response = await fetch("api/FinanceNews"); 
         
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
         const data = await response.json();
+        console.log(data)
         setNews(data.data || data); 
         setLoading(false);
       } catch (error) {

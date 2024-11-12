@@ -38,7 +38,7 @@ const Page = () => {
     const fetchData = async () => {
       try {
         setLoading(true)
-        const response = await fetch("/api/FinanceNews"); 
+        const response = await fetch("api/FinanceNews"); 
         
         if (!response.ok) {
           throw new Error("Failed to fetch data");

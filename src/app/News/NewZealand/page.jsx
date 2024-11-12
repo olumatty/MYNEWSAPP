@@ -5,7 +5,8 @@ import Link from "next/link";
 import { countries } from "../News";
 
 
-const NewZealand = ({ countryCode = 'nz' }) => {
+const NewZealand = () => {
+    const countryCode = 'nz' ;
   const [news, setNews] = useState([]);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);

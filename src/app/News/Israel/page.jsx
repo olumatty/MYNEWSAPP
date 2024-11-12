@@ -6,7 +6,8 @@ import { countries } from "../News";
 
 
 
-const Israel = ({ countryCode = 'il' }) => {
+const Israel = () => {
+  const countryCode = 'il' ;
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);

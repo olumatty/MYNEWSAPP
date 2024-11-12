@@ -4,9 +4,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { countries } from "../News";
 
-
-
-const Germany = ({ countryCode = 'de' }) => {
+const Germany = () => {
+    const countryCode = 'de' 
   const [news, setNews] = useState([]);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);

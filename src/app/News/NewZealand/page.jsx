@@ -13,7 +13,7 @@ const NewZealand = () => {
   const [selectedArticle, setSelectedArticle] = useState(null); 
   const [activeButton, setActiveButton] = useState(null)
 
-  const apiKey = "14be1c978a7ee763c26424513c5c3ae8";
+  const apiKey = "ede3708a63e629b7136c6e1095170d19";
 
   useEffect(() => {
     const fetchNews = async () => {

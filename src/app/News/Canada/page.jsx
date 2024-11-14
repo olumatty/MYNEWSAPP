@@ -11,7 +11,7 @@ const Canada = () => {
   const [loading, setLoading] = useState(false);
   const [activeButton, setActiveButton] = useState(null)
 
-  const apiKey = '507ad1459bae12be2f90905f3c723ea3';
+  const apiKey = "ede3708a63e629b7136c6e1095170d19";
 
   useEffect(() => {
     const fetchNews = async () => {
